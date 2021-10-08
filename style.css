@@ -1,0 +1,61 @@
+:root {
+    --black: #000000;
+    --wait: #ffffff;
+    --light-orange: #ff8b38;
+    --dark: #585858;
+    --light-gray: #b0b0b0;
+    --dark-gray: #333333;
+    
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+*,
+*:before
+*:after {
+    box-sizing: border-box;
+
+}
+
+ .header {
+    padding: 1.1rem 0;
+    position: relative;
+    background-color: #000000;
+ }
+
+ .header_inner {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 9rem;
+ }
+
+ .nav {
+     display: flex;
+     flex-wrap: wrap;
+     align-items:center ;
+     height: 100%;
+ }
+
+ .nav_link {
+     margin-left: 1.9rem;
+     position: relative;
+
+     font-size: 1rem ;
+     color: var(--light-gray);
+     font-weight: normal;
+     text-decoration: none;
+ }
