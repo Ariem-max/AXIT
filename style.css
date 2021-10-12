@@ -5,7 +5,7 @@
     --dark: #585858;
     --light-gray: #b0b0b0;
     --dark-gray: #333333;
-    
+    --back: #9a9a9a;
 }
 
 body {
@@ -27,7 +27,15 @@ p {
 *:before
 *:after {
     box-sizing: border-box;
+}
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+    
 }
 
  .header {
@@ -40,7 +48,7 @@ p {
      display: flex;
      justify-content: space-between;
      align-items: center;
-     padding: 0 9rem;
+    
  }
 
  .nav {
@@ -59,3 +67,78 @@ p {
      font-weight: normal;
      text-decoration: none;
  }
+
+
+ .intro_head {
+     text-align: center;
+     margin-top: 68px;
+     position: relative;  
+     
+ }
+
+ .text_center {
+     color: var(--light-gray);
+     font-weight: 200;
+     opacity: 100%;
+     margin-bottom: 20px;
+ }
+
+
+ .intro {
+     background-color: var(--back);
+     display: flex ;
+     justify-content: space-between;
+     padding-bottom: 40px;
+     position: relative;
+     
+ }
+
+ .img_battom {
+     margin-bottom: 25px;
+    
+ }
+
+ .text_lift {
+     display: flex;
+     justify-content: space-between;
+     color: var(--wait);
+     font-weight: 200;
+     font-size: 2.8rem;
+     padding-bottom: 35px;  
+    
+ }
+
+.border {
+     border-bottom: 1px solid var(--wait);
+     width:75px;
+     display:inline-block;
+     margin-bottom: 40px;
+}
+
+.tetx {
+     font-size: 16px;
+     margin-right: 44rem;
+     font-weight: lighter;
+     color: var(--wait);
+     opacity: 60%;
+     margin-bottom: 49px;
+    
+}
+
+.button {
+    display: inline-block;
+    width: 141px;
+    vertical-align: top;
+    padding: 14px 34px;
+    border: 1px solid var(--wait);
+    background: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: var(--wait);
+    text-align: center;
+}
+.button:hover {
+    background: black;
+    color: white;
+    opacity: 0.7;
+}
